@@ -1,8 +1,10 @@
 .modal {
-  @include grid-column(4);
-  @include grid-shift(4);
+  @include grid-column(6);
+  @include grid-shift(3);
 
+  padding: 2rem 0;
   margin-top: 5rem;
   text-align: center;
-  min-height: 30rem;
+  min-height: rem(477px);
+  box-shadow: #000000 0px 1px 2px 0px;
 }

@@ -2,3 +2,20 @@ $neat-grid: (
   columns: 12,
   gutter: 16px,
 );
+
+
+form {
+  text-align: left;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+
+  &:-webkit-autofill {
+    background-color: white !important;
+  }
+}

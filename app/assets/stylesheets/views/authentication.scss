@@ -1,0 +1,13 @@
+.authentication {
+  background-color: $grey;
+
+  .modal {
+    background-color: $white;
+  }
+
+  .field, .actions, a {
+    @include grid-column(8);
+    @include grid-shift(2);
+  }
+
+}
