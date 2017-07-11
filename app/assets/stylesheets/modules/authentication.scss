@@ -1,0 +1,7 @@
+.authentication {
+  background-color: $color-dark;
+
+  .field, .action {
+    grid-column: 2 / span 8;
+  }
+}
