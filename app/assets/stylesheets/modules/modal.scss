@@ -1,9 +1,8 @@
 .modal {
-  // grid-column: 5 / span 4;
-  // grid-row: 2;
+  @include grid-column(4);
+  @include grid-shift(4);
+
   margin-top: 5rem;
   text-align: center;
-
-  @include grid-column(2);
-  @include shift(4);
+  min-height: 30rem;
 }

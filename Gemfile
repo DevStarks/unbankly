@@ -37,7 +37,7 @@ gem 'devise', '~> 4.3.0'
 gem "haml-rails", "~> 0.9"
 
 gem 'bourbon'
-gem "neat"
+gem "neat", "~> 2.0.0"
 
 
 group :development, :test do
