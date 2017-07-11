@@ -3,6 +3,9 @@ $neat-grid: (
   gutter: 16px,
 );
 
+body {
+  font-family: 'Oswald', sans-serif;
+}
 
 form {
   text-align: left;
@@ -13,8 +16,6 @@ label {
 }
 
 input {
-  width: 100%;
-
   &:-webkit-autofill {
     background-color: white !important;
   }
