@@ -3,8 +3,17 @@ $neat-grid: (
   gutter: 16px,
 );
 
+body, div, input, form, button, label, p, h1, h2, h3, h4, h5, h6,
+section, main, header, footer, ol, ul, li, span {
+  box-sizing: border-box;
+  border: inherit;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: $color-grey-dark;
+  border: none;
 }
 
 form {
@@ -12,11 +21,33 @@ form {
 }
 
 label {
+  display: inline-block;
   text-transform: uppercase;
+  font-weight: $weight-regular;
+  letter-spacing: 0.5px;
+  margin-bottom: .5rem;
+  opacity: .6;
 }
 
 input {
+  border: 1px solid $color-grey-light;
+  height: 2.5rem;
+  padding: .5rem;
+
   &:-webkit-autofill {
-    background-color: white !important;
+    -webkit-box-shadow: 0 0 0 30px white inset;
   }
+
+}
+
+input, select, textarea {
+  color: $color-slate-light;
+
+  &:focus {
+    color: $color-slate-light;
+  }
+}
+
+a {
+  text-decoration: none;
 }

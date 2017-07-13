@@ -1,8 +1,9 @@
 .authentication {
-  background-color: $grey;
+  background-color: $color-grey-dark;
+  text-transform: uppercase;
 
   .modal {
-    background-color: $white;
+    background-color: $color-white;
   }
 
   .field, .actions, a {
@@ -11,7 +12,28 @@
   }
 
   .field {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-primary {
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  a {
+    color: $color-grey-light;
+
+    &:hover {
+      color: darken($color-grey-light, 10%);
+    }
   }
 
 }

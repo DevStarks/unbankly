@@ -1,4 +1,39 @@
-.btn-primary {
-  color: $taupe;
+.btn {
   text-align: center;
+  text-transform: uppercase;
+  padding: .5em 1em;
+}
+
+.btn-primary {
+  @extend .btn;
+  background-color: $color-taupe-light;
+  color: $color-slate-light;
+  text-align: center;
+}
+
+.btn-secondary {
+  @extend .btn;
+  color: $color-taupe-dark;
+}
+
+.link {
+  text-transform: uppercase;
+}
+
+.link-primary {
+  @extend .link;
+  color: $color-slate-light;
+  font-weight: $weight-semibold;
+}
+
+.link-secondary {
+  @extend .link;
+  color: $color-grey-light;
+  font-weight: $weight-medium;
+}
+
+.link-tertiary {
+  @extend .link;
+  color: $color-slate-light;
+  font-weight: $weight-regular;
 }
