@@ -82,4 +82,4 @@ production:
   <<: *default
   database: unbankly_production
   username: unbankly
-  password: <%= ENV['TESTER_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>

@@ -1,19 +1,33 @@
+// grid config
 $neat-grid: (
   columns: 12,
   gutter: 16px,
 );
 
-body, div, input, form, button, label, p, h1, h2, h3, h4, h5, h6,
+// reset
+
+html, body, div, input, form, button, label, p, h1, h2, h3, h4, h5, h6,
 section, main, header, footer, ol, ul, li, span {
   box-sizing: border-box;
-  border: inherit;
+  margin:0;
+  padding:0;
+  border:0;
+  font:inherit;
+  vertical-align:baseline;
+  line-height:normal;
+}
+
+// base styles
+
+html, body {
+  min-height:100%;
 }
 
 body {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   color: $color-grey-dark;
-  border: none;
+  height: 100vh;
 }
 
 form {
