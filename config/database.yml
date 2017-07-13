@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: unbankly_production
   username: unbankly
   password: <%= ENV['DATABASE_PASSWORD'] %>
