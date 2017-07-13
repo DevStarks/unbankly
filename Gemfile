@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
+  repo_name = '#{repo_name}/#{repo_name}' unless repo_name.include?('/')
+  'https://github.com/#{repo_name}.git'
 end
 
 ruby '2.3.1'
@@ -34,11 +34,13 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise', '~> 4.3.0'
 
-gem "haml-rails", "~> 0.9"
+gem 'haml-rails', '~> 0.9'
 
 gem 'bourbon'
-gem "neat", "~> 2.0.0"
+gem 'neat', '~> 2.0.0'
 gem 'normalize-rails'
+gem 'autoprefixer-rails'
+
 
 
 
@@ -60,8 +62,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem 'better_errors'
+  gem 'binding_of_caller'
 
 end
 
