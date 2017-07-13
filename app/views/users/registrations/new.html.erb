@@ -1,9 +1,7 @@
 <div class="modal">
-  <h2>Sign up</h2>
+  <%= image_tag 'logo.svg' %>
 
-  <div class="actions">
-    <%= f.submit "Sign up" %>
-  </div>
+  <%= link_to 'Already have an account?', new_session_path(resource_name), class: 'link-secondary' %>
 
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= devise_error_messages! %>
@@ -15,9 +13,6 @@
 
     <div class="field">
       <%= f.label :password %>
-      <% if @minimum_password_length %>
-      <em>(<%= @minimum_password_length %> characters minimum)</em>
-      <% end %><br />
       <%= f.password_field :password, autocomplete: "off" %>
     </div>
 
@@ -26,7 +21,8 @@
       <%= f.password_field :password_confirmation, autocomplete: "off" %>
     </div>
 
+    <div class="actions">
+      <%= f.submit "Sign up", class: 'btn-primary' %>
+    </div>
   <% end %>
-
-  <%= render "devise/shared/links" %>
 </div>
