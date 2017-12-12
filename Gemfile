@@ -11,9 +11,6 @@ ruby '2.3.1'
 gem 'rails', '~> 5.1.2'
 # Use Postgres as the database for Active Record
 
-# heroku gem
-gem 'rails_12factor'
-
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -56,6 +53,7 @@ group :development, :test do
   gem 'selenium-webdriver'
 
   gem 'rspec-rails', '~> 3.5'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -69,6 +67,10 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
 
+end
+
+group :production do
+  gem 'rails_12factor'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
