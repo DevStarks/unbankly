@@ -25,7 +25,7 @@ column name     | data type | details
 created_at      | timestamp | not null
 amount          | decimal   | 2-point precision, not null
 loan_id         | integer   | not null, indexed, foreign key
-status          | string    | not null
+status          | string    | not null, (paid, unpaid)
 
 
 ## applications
