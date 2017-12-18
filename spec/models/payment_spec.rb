@@ -4,7 +4,6 @@ RSpec.describe Payment do
   it { is_expected.to respond_to(:loan) }
   it { is_expected.to respond_to(:status) }
 
-
   describe 'validations' do
     let(:payment) { build(:payment) }
 
@@ -20,6 +19,15 @@ RSpec.describe Payment do
       context "with missing #{attr}" do
         it 'should not be valid' do
           payment.send("#{attr}=", nil)
+          expect(payment).to be_invalid
+        end
+      end
+    end
+
+    describe 'status validation' do
+      context 'with invalid status' do
+        it 'should not be valid' do
+          payment.status = Faker::DragonBall.character
           expect(payment).to be_invalid
         end
       end

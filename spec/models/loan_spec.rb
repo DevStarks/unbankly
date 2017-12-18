@@ -5,6 +5,7 @@ RSpec.describe Loan do
   it { is_expected.to respond_to(:term_length) }
   it { is_expected.to respond_to(:loaner) }
   it { is_expected.to respond_to(:loanee) }
+  it { is_expected.to respond_to(:payments) }
   it { is_expected.to respond_to(:loan_application) }
 
   describe 'validations' do
