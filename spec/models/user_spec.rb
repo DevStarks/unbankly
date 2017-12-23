@@ -1,5 +1,4 @@
 RSpec.describe User do
-  let(:user) { build(:user) }
 
   it { is_expected.to respond_to(:first_name) }
   it { is_expected.to respond_to(:last_name) }
@@ -7,6 +6,8 @@ RSpec.describe User do
   it { is_expected.to respond_to(:phone) }
 
   describe 'validations' do
+    let(:user) { build(:user) }
+
     context 'when all attrs are present' do
       it 'should be valid' do
         expect(user).to be_valid
@@ -25,16 +26,20 @@ RSpec.describe User do
     end
   end
 
-  describe '#debtors' do
-    let(:debtor) { create(:user) }
-    
-    before do
-      user.save
-      create(:loan, borrower: debtor, lender: user)
-    end
+  let(:debtor)   { create(:user) }
+  let(:creditor) { create(:user) }
 
+  before { create(:loan, borrower: debtor, lender: creditor) }
+
+  describe '#debtors' do
     it 'returns correct list of debtors' do
-      expect(user.debtors).to include(debtor)
+      expect(creditor.debtors).to include(debtor)
+    end
+  end
+
+  describe '#creditors' do
+    it 'returns correct list of creditors' do
+      expect(debtor.creditors).to include(creditor)
     end
   end
 end

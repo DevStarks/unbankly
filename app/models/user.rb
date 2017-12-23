@@ -9,9 +9,17 @@ class User < ApplicationRecord
            foreign_key: :lender_id,
            class_name: 'Loan'
 
-  has_many :loan_applications
+  has_many :loans_as_borrower,
+           foreign_key: :borrower_id,
+           class_name: 'Loan'
 
-  def debtors
-    User.where(id: loans_as_lender.pluck(:borrower_id))
-  end
+  has_many :debtors,
+           through: :loans_as_lender,
+           source: :borrower
+
+  has_many :creditors,
+           through: :loans_as_borrower,
+           source: :lender
+
+  has_many :loan_applications
 end
