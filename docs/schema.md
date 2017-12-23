@@ -14,8 +14,8 @@ column name     | data type | details
 amount          | decimal   | 2-point precision, not null
 payment_freq    | integer   | not null
 term_length     | integer   |
-loaner_id       | integer   | not null, indexed, foreign key
-loanee_id       | integer   | not null, indexed, foreign key
+lender_id       | integer   | not null, indexed, foreign key
+borrower_id       | integer   | not null, indexed, foreign key
 application_id  | integer   | not null, indexed, foreign key, unique
 
 
@@ -32,6 +32,6 @@ status          | string    | not null, (paid, unpaid)
 column name     | data type | details
 ----------------|-----------|-----------------------
 created_at      | timestamp | not null
-loaner_id       | string    | not null, indexed, foreign key
+lender_id       | string    | not null, indexed, foreign key
 applicant_id    | string    | not null, indexed, foreign key
 status          | string    | not null, (draft, pending, approved, denied)

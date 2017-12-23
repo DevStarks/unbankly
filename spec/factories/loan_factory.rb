@@ -4,9 +4,9 @@ FactoryBot.define do
     payment_freq { rand(90) }
     term_length { rand(90) }
 
-    association :loanee, factory: :user
-    association :loaner, factory: :user
+    association :borrower, factory: :user
+    association :lender, factory: :user
 
-    loan_application { create(:loan_application, loaner: self.loaner, applicant: self.loanee) }
+    loan_application { create(:loan_application, lender: self.lender, applicant: self.borrower) }
   end
 end

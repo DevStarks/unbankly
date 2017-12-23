@@ -1,7 +1,7 @@
 RSpec.describe LoanApplication do
 
   it { is_expected.to respond_to(:status) }
-  it { is_expected.to respond_to(:loaner) }
+  it { is_expected.to respond_to(:lender) }
   it { is_expected.to respond_to(:applicant) }
 
   describe 'validations' do
@@ -15,7 +15,7 @@ RSpec.describe LoanApplication do
         end
       end
 
-      present_attributes = [:status, :applicant_id, :loaner_id]
+      present_attributes = [:status, :applicant_id, :lender_id]
 
       present_attributes.each do |attr|
         context "with missing #{attr}" do

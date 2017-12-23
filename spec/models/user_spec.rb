@@ -24,4 +24,17 @@ RSpec.describe User do
       end
     end
   end
+
+  describe '#debtors' do
+    let(:debtor) { create(:user) }
+    
+    before do
+      user.save
+      create(:loan, borrower: debtor, lender: user)
+    end
+
+    it 'returns correct list of debtors' do
+      expect(user.debtors).to include(debtor)
+    end
+  end
 end

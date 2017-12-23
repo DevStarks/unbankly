@@ -3,6 +3,6 @@ FactoryBot.define do
     status 'draft'
 
     association :applicant, factory: :user
-    association :loaner, factory: :user
+    association :lender, factory: :user
   end
 end

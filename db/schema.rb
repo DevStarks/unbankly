@@ -17,26 +17,26 @@ ActiveRecord::Schema.define(version: 20171216010207) do
 
   create_table "loan_applications", force: :cascade do |t|
     t.string "status", null: false
-    t.integer "loaner_id", null: false
+    t.integer "lender_id", null: false
     t.integer "applicant_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["applicant_id"], name: "index_loan_applications_on_applicant_id"
-    t.index ["loaner_id"], name: "index_loan_applications_on_loaner_id"
+    t.index ["lender_id"], name: "index_loan_applications_on_lender_id"
   end
 
   create_table "loans", force: :cascade do |t|
     t.decimal "amount", null: false
     t.integer "payment_freq", null: false
     t.integer "term_length", null: false
-    t.integer "loaner_id", null: false
-    t.integer "loanee_id", null: false
+    t.integer "lender_id", null: false
+    t.integer "borrower_id", null: false
     t.integer "loan_application_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["borrower_id"], name: "index_loans_on_borrower_id"
+    t.index ["lender_id"], name: "index_loans_on_lender_id"
     t.index ["loan_application_id"], name: "index_loans_on_loan_application_id", unique: true
-    t.index ["loanee_id"], name: "index_loans_on_loanee_id"
-    t.index ["loaner_id"], name: "index_loans_on_loaner_id"
   end
 
   create_table "payments", force: :cascade do |t|
