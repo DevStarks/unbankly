@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+test_user = FactoryBot.create(:user, username: 'devstarks', email: 'devstarks@gmail.com', password: 'password')
+
+# create debtors
+3.times do
+  FactoryBot.create(:loan, borrower: FactoryBot.create(:user), lender: test_user)
+end
