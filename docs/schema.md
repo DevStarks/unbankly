@@ -8,6 +8,7 @@ last_name       | string    | not null
 email           | string    | not null, indexed, unique
 phone           | string    | not null
 
+
 ## loans
 column name     | data type | details
 ----------------|-----------|-----------------------
@@ -15,7 +16,7 @@ amount          | decimal   | 2-point precision, not null
 payment_freq    | integer   | not null
 term_length     | integer   |
 lender_id       | integer   | not null, indexed, foreign key
-borrower_id       | integer   | not null, indexed, foreign key
+borrower_id     | integer   | not null, indexed, foreign key
 application_id  | integer   | not null, indexed, foreign key, unique
 
 
@@ -28,7 +29,7 @@ loan_id         | integer   | not null, indexed, foreign key
 status          | string    | not null, (paid, unpaid)
 
 
-## applications
+## loan_applications
 column name     | data type | details
 ----------------|-----------|-----------------------
 created_at      | timestamp | not null

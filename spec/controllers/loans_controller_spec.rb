@@ -1,24 +1,22 @@
-RSpec.describe UsersController do
+RSpec.describe LoansController do
   login_user
 
   describe '#index' do
     let(:user2) { create(:user) }
 
-    before do
-      create(:loan, borrower: subject.current_user,  lender: user2)
-      create(:loan, borrower: user2, lender: subject.current_user)
-    end
+    let!(:borrowed_loan){ create(:loan, borrower: subject.current_user,  lender: user2) }
+    let!(:lent_loan){ create(:loan, borrower: user2, lender: subject.current_user) }
 
     context 'when params[:role] == lender' do
-      it 'should return a list of creditors' do
+      it 'should return a list of loans where user is lender' do
         get :index, params: { role: :lender }
 
-        creditors = [user2]
-        expect(response.body).to eq(creditors.to_json)
+        lent_loans = [lent_loan]
+        expect(response.body).to eq(lent_loans.to_json)
       end
 
       context 'and user hasnt lent any loans' do
-         before { Loan.delete_all }
+        before { Loan.delete_all }
 
         it 'should return an empty array' do
           get :index, params: { role: :lender }
@@ -31,9 +29,9 @@ RSpec.describe UsersController do
     context 'when params[:role] == borrower' do
       before { get :index, params: { role: :borrower } }
 
-      it 'should return a list of lenders' do
-        debtors = [user2]
-        expect(response.body).to eq(debtors.to_json)
+      it 'should return a list of loans where user is lender' do
+        borrowed_loans = [borrowed_loan]
+        expect(response.body).to eq(borrowed_loans.to_json)
       end
     end
 
