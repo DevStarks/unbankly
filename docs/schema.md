@@ -29,7 +29,7 @@ loan_id         | integer   | not null, indexed, foreign key
 status          | string    | not null, (paid, unpaid)
 
 
-## loan_applications
+## loan_requests
 column name     | data type | details
 ----------------|-----------|-----------------------
 created_at      | timestamp | not null

@@ -15,14 +15,14 @@ ActiveRecord::Schema.define(version: 20171216010207) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "loan_applications", force: :cascade do |t|
+  create_table "loan_requests", force: :cascade do |t|
     t.string "status", null: false
     t.integer "lender_id", null: false
     t.integer "applicant_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["applicant_id"], name: "index_loan_applications_on_applicant_id"
-    t.index ["lender_id"], name: "index_loan_applications_on_lender_id"
+    t.index ["applicant_id"], name: "index_loan_requests_on_applicant_id"
+    t.index ["lender_id"], name: "index_loan_requests_on_lender_id"
   end
 
   create_table "loans", force: :cascade do |t|

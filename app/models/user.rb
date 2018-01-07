@@ -21,5 +21,5 @@ class User < ApplicationRecord
            through: :loans_as_borrower,
            source: :lender
 
-  has_many :loan_applications
+  has_many :loan_requests
 end
