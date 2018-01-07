@@ -33931,15 +33931,14 @@ exports.default = SidebarListItem;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var reducer = function reducer(prevState, action) {
-  switch (action.type) {
-    case 'expression':
 
-      break;
-    default:
-      return prevState;
-  }
-};
+var _redux = __webpack_require__(148);
+
+var _Sidebar = __webpack_require__(433);
+
+var reducer = (0, _redux.combineReducers)({
+  sidebar: _Sidebar.reducer
+});
 
 exports.default = reducer;
 

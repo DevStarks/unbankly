@@ -23,4 +23,4 @@
 .byebug_history
 .env
 
-/app/assets/javascripts/build/bundle.js
+/app/assets/javascripts/build/*

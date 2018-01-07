@@ -1,11 +1,8 @@
-const reducer = (prevState, action) => {
-  switch (action.type) {
-    case 'expression':
+import { combineReducers } from 'redux';
+import { reducer as SidebarReducer } from '../Sidebar';
 
-      break;
-    default:
-      return prevState;
-  }
-};
+const reducer = combineReducers({
+  sidebar: SidebarReducer,
+});
 
 export default reducer;
