@@ -1,7 +1,18 @@
 import React from 'react';
+import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import configureStore from './config/configureStore';
+import App from './modules/App';
 
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(<App />, document.getElementById('app'));
+const initialState = {};
+
+const store = configureStore(initialState);
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById('app')
+  );
 });

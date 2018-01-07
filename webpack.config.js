@@ -8,19 +8,31 @@ module.exports = {
     filename: 'bundle.js',
     path: __dirname + '/app/assets/javascripts/build'
   },
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'cheap-module-source-map',
   resolve: {
     extensions: ['.js', '.jsx', '.js.jsx']
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /.jsx?$/,
-        loader: 'babel-loader',
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react']
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015', 'react']
+          }
         }
+      },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: 'style-loader' // creates style nodes from JS strings
+        }, {
+          loader: 'css-loader' // translates CSS into CommonJS
+        }, {
+          loader: 'sass-loader' // compiles Sass to CSS
+        }]
       }
     ]
   },

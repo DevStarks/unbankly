@@ -1,13 +1,12 @@
 import React from 'react';
-import Sidebar from './sidebar';
+import Sidebar from '../../Sidebar';
 
 const App = function () {
   return (
-    <h1>
-      <Sidebar></Sidebar>
-    </h1>
+    <div>
+      <Sidebar />
+    </div>
   );
 };
-
 
 export default App;
