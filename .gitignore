@@ -24,3 +24,6 @@
 .env
 
 /app/assets/javascripts/build/*
+
+# Ignore application configuration
+/config/application.yml
