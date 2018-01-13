@@ -1,17 +1,17 @@
-RSpec.describe LoanApplication do
+RSpec.describe LoanRequest do
 
   it { is_expected.to respond_to(:status) }
   it { is_expected.to respond_to(:lender) }
   it { is_expected.to respond_to(:applicant) }
 
   describe 'validations' do
-    let(:loan_application) { build(:loan_application) }
+    let(:loan_request) { build(:loan_request) }
     
     describe 'attribute presence' do
 
       context 'when all attrs are present' do
         it 'should be valid' do
-          expect(loan_application).to be_valid
+          expect(loan_request).to be_valid
         end
       end
 
@@ -20,8 +20,8 @@ RSpec.describe LoanApplication do
       present_attributes.each do |attr|
         context "with missing #{attr}" do
           it 'should not be valid' do
-            loan_application.send("#{attr}=", nil)
-            expect(loan_application).to be_invalid
+            loan_request.send("#{attr}=", nil)
+            expect(loan_request).to be_invalid
           end
         end
       end
@@ -30,8 +30,8 @@ RSpec.describe LoanApplication do
     describe 'status validation' do
       context 'with invalid status' do
         it 'should not be valid' do
-          loan_application.status = Faker::DragonBall.character
-          expect(loan_application).to be_invalid
+          loan_request.status = Faker::DragonBall.character
+          expect(loan_request).to be_invalid
         end
       end
     end

@@ -31,12 +31,12 @@ ActiveRecord::Schema.define(version: 20171216010207) do
     t.integer "term_length", null: false
     t.integer "lender_id", null: false
     t.integer "borrower_id", null: false
-    t.integer "loan_application_id", null: false
+    t.integer "loan_request_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["borrower_id"], name: "index_loans_on_borrower_id"
     t.index ["lender_id"], name: "index_loans_on_lender_id"
-    t.index ["loan_application_id"], name: "index_loans_on_loan_application_id", unique: true
+    t.index ["loan_request_id"], name: "index_loans_on_loan_request_id", unique: true
   end
 
   create_table "payments", force: :cascade do |t|
@@ -65,7 +65,11 @@ ActiveRecord::Schema.define(version: 20171216010207) do
     t.string "first_name"
     t.string "last_name"
     t.string "phone"
+    t.string "provider"
+    t.string "uid"
+    t.string "photo_url"
     t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["provider", "uid"], name: "index_users_on_provider_and_uid"
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 

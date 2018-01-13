@@ -1,4 +1,4 @@
-class CreateLoanApplication < ActiveRecord::Migration[5.1]
+class CreateLoanRequests < ActiveRecord::Migration[5.1]
   def change
     create_table :loan_requests do |t|
       t.string :status, null: false

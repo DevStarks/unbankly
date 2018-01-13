@@ -7,6 +7,6 @@ FactoryBot.define do
     association :borrower, factory: :user
     association :lender, factory: :user
 
-    loan_application { create(:loan_application, lender: self.lender, applicant: self.borrower) }
+    loan_request { create(:loan_request, lender: self.lender, applicant: self.borrower) }
   end
 end

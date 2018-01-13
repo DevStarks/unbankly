@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :loan_application do
+  factory :loan_request do
     status 'draft'
 
     association :applicant, factory: :user
