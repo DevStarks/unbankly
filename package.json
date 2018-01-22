@@ -43,6 +43,7 @@
     "heroku-postbuild": "./node_modules/.bin/webpack --config webpack.prod.config.js",
     "dev": "./node_modules/.bin/webpack --watch",
     "start-native": "react-native-scripts start",
+    "emulate-android": "~/Library/Android/sdk/emulator/emulator @Pixel_API_27",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
