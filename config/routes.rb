@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount_devise_token_auth_for 'User', at: 'auth'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root to: "pages#main"
 
@@ -7,11 +8,6 @@ Rails.application.routes.draw do
     sessions: 'users/sessions',
     omniauth_callbacks: 'users/omniauth_callbacks'
   }
-
-  # get 'login', to: redirect('/auth/google_oauth2'), as: 'login'
-  # get 'logout', to: 'sessions#destroy', as: 'logout'
-  # get 'auth/:provider/callback', to: 'sessions#create'
-  # get 'auth/failure', to: redirect('/')
 
   resources :users, only: [:index]
 

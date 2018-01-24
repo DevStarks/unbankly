@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { reducer as SidebarReducer } from '../Sidebar';
+import { reduxTokenAuthReducer } from 'redux-token-auth';
 
 const reducer = combineReducers({
-  sidebar: SidebarReducer,
+  reduxTokenAuth: reduxTokenAuthReducer
 });
 
 export default reducer;

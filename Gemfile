@@ -45,6 +45,8 @@ gem 'active_model_serializers', '~> 0.10.0'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-facebook'
 gem 'figaro'
+gem 'devise_token_auth'
+
 
 
 

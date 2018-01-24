@@ -1,0 +1,6 @@
+framework module Pods_Unbankly_tvOS {
+  umbrella header "Pods-Unbankly-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

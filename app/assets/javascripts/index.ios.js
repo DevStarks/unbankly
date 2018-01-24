@@ -1,6 +1,4 @@
-import React from 'react';
+import UnbanklyApp from'./index.native';
 import { AppRegistry } from 'react-native';
 
-import App from './modules/App';
-
-AppRegistry.registerComponent('Unbankly', () => App);
+AppRegistry.registerComponent('Unbankly', () => UnbanklyApp);
