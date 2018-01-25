@@ -1,29 +1,14 @@
 import React from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Image,
-  Text,
-  View
-} from 'react-native';
-import TextInput from '../TextInput';
+import { connect } from 'react-redux';
+import { mapStateToProps } from './container.js';
+import { addNavigationHelpers } from 'react-navigation';
+import { AppNavigator } from './navigation/navigator';
 
-const styles = StyleSheet.create({
-  container: {
-    // marginTop: Platform.OS === 'ios' ? 200 : 0,
-    flex: 1
-  },
-  image: {
-    flex: 1
-  }
-});
 
-export default function () {
+const App = function ({ dispatch, nav }) {
   return (
-    <View style={styles.container}>
-      <Image style={styles.image}/>
-
-      <TextInput />
-    </View>
+    <AppNavigator navigation={addNavigationHelpers({ dispatch, state: nav })} />
   );
-}
+};
+
+export default connect(mapStateToProps)(App);

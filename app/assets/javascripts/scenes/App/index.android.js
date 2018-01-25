@@ -1,8 +1,5 @@
-'use strict';
-
 import Render from './render.native';
+import reducer from './reducer';
 
-// export default function () {
-//   return Render.call(this, this.props, this.state);
-// }
 export default Render;
+export { default as reducer } from './reducer';

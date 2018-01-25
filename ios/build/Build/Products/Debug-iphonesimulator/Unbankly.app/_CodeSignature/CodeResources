@@ -8,6 +8,18 @@
 		<data>
 		C08OLCqRTLajjYuCRE2lL8Qp0m4=
 		</data>
+		<key>Frameworks/DCTAuth.framework/DCTAuth</key>
+		<data>
+		pIZZK+cnE8+TKDFVYeCBXA0vjho=
+		</data>
+		<key>Frameworks/DCTAuth.framework/Info.plist</key>
+		<data>
+		q40OVu0GwqQ7yEm3O1A/drwntgw=
+		</data>
+		<key>Frameworks/DCTAuth.framework/_CodeSignature/CodeResources</key>
+		<data>
+		xrDofp6fTJLjKbhLrmh7jaLDwBg=
+		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
 		aUm0c1LLvF5BD7IVSBsGgwX3iyY=
@@ -215,7 +227,7 @@
 		</data>
 		<key>PlugIns/UnbanklyTests.xctest/UnbanklyTests</key>
 		<data>
-		SuU5ySRTyriW1NCcKzvDPcol8nQ=
+		eAgsp/e6+npUmdtMZYv1y4MkKyo=
 		</data>
 		<key>PlugIns/UnbanklyTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -233,6 +245,39 @@
 			<key>hash2</key>
 			<data>
 			cDoze65MyCaI1r+D7tVXc6PekQYYyTSaCyeyIczq9ts=
+			</data>
+		</dict>
+		<key>Frameworks/DCTAuth.framework/DCTAuth</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pIZZK+cnE8+TKDFVYeCBXA0vjho=
+			</data>
+			<key>hash2</key>
+			<data>
+			feMsJjYnwalMi3v+Bamk1BX+a9UHthAYYUA9YI2/Hnc=
+			</data>
+		</dict>
+		<key>Frameworks/DCTAuth.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q40OVu0GwqQ7yEm3O1A/drwntgw=
+			</data>
+			<key>hash2</key>
+			<data>
+			W/1ubpr9VQpImDQWLdcAI/mW0bqjchTPvOSaNNiqEMQ=
+			</data>
+		</dict>
+		<key>Frameworks/DCTAuth.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xrDofp6fTJLjKbhLrmh7jaLDwBg=
+			</data>
+			<key>hash2</key>
+			<data>
+			SX6gLqRVui7TkeWvuUZxj77630pTI16ehgbF5pcSmI0=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -774,11 +819,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SuU5ySRTyriW1NCcKzvDPcol8nQ=
+			eAgsp/e6+npUmdtMZYv1y4MkKyo=
 			</data>
 			<key>hash2</key>
 			<data>
-			8u4t0rp6dwAKimi5JNnJ0oDgTWxDDfFwfh8HxAJrGpQ=
+			qWYMnPAaNVk/MvI/Dd+dPQKOm6zMp0cUZtgi890IEEU=
 			</data>
 		</dict>
 		<key>PlugIns/UnbanklyTests.xctest/_CodeSignature/CodeResources</key>

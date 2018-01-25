@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { reduxTokenAuthReducer } from 'redux-token-auth';
+import navReducer from './navigation/reducer';
+import { reducer as AuthReducer } from '../Auth';
 
-const reducer = combineReducers({
-  reduxTokenAuth: reduxTokenAuthReducer
+export default combineReducers({
+  auth: AuthReducer,
+  navigation: navReducer
 });
-
-export default reducer;

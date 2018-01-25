@@ -1,0 +1,132 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/DCTAuth/DCTAuth.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DCTAuth-Swift.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/DCTAuth/DCTAuth.framework/Headers/DCTAuth-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuth-umbrella.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/Target Support Files/DCTAuth/DCTAuth-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuth.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuth.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccount.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccount.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccountCredential.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccountCredential.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccountStore.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccountStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthAccountSubclass.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthAccountSubclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthPlatform.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthPlatform.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthRequest.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthRequest.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthRequestMethod.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthRequestMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "DCTAuthResponse.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/DCTAuth/DCTAuth/DCTAuthResponse.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/DCTAuth/DCTAuth.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Intermediates/Pods.build/Debug-iphonesimulator/DCTAuth.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/Pods_Unbankly.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Unbankly-umbrella.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/Target Support Files/Pods-Unbankly/Pods-Unbankly-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Unbankly-Swift.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/Pods_Unbankly.framework/Headers/Pods_Unbankly-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/Pods_Unbankly.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Unbankly.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/Pods_UnbanklyTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-UnbanklyTests-umbrella.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/Pods/Target Support Files/Pods-UnbanklyTests/Pods-UnbanklyTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_UnbanklyTests-Swift.h",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/Pods_UnbanklyTests.framework/Headers/Pods_UnbanklyTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Products/Debug-iphonesimulator/Pods_UnbanklyTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/DevinStarks/Desktop/development-apps/unbankly-app/ios/build/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-UnbanklyTests.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
