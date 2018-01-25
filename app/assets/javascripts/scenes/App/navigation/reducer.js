@@ -1,7 +1,6 @@
 import navigator from './navigator';
 
 const actionForPathAndParams = navigator.router.getActionForPathAndParams('Auth');
-
 export const initialState = navigator.router.getStateForAction(actionForPathAndParams);
 
 export default (state = initialState, action) => {

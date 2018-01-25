@@ -1,4 +1,4 @@
 
 export const mapStateToProps = (state) => ({
-  nav: state.nav
+  navigation: state.navigation
 });

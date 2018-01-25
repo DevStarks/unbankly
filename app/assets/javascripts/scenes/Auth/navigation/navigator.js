@@ -8,7 +8,8 @@ const AppRouteConfigs = {
 };
 
 const StackNavigatorConfigs = {
-  initialRouteName: 'Login'
+  initialRouteName: 'Login',
+  headerMode: 'none'
 };
 
 export default StackNavigator(AppRouteConfigs, StackNavigatorConfigs);

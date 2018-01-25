@@ -1,3 +1,3 @@
 export const mapStateToProps = (state) => ({
-  nav: state.nav
+  navigation: state.auth.navigation
 });

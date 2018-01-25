@@ -3,7 +3,8 @@
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
     "react-test-renderer": "^16.2.0",
-    "redux-devtools": "^3.4.1"
+    "redux-devtools": "^3.4.1",
+    "redux-devtools-extension": "^2.13.2"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -48,7 +49,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
-    "start": "react-native start"
+    "start": "react-native start",
+    "debug": "open rndebugger://set-debugger-loc?host=localhost&port=19001"
   },
   "repository": {
     "type": "git",
