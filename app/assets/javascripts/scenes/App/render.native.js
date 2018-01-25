@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { mapStateToProps } from './container.js';
+import { mapStateToProps } from './container';
 import { addNavigationHelpers } from 'react-navigation';
 import AppNavigator from './navigation/navigator';
 

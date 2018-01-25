@@ -1,7 +1,7 @@
-import navReducer from './navigation/reducer';
+import { initialState as reducerInitialState } from './navigation/reducer';
 
 export const initialState = {
-  navigation: navReducer,
+  navigation: reducerInitialState,
   token: null,
   userSignedIn: null,
   attributes: {}

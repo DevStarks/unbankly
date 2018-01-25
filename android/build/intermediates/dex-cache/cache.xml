@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_9052ddff6e467e02a1349b5afdaf78a149ac014e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_bf5af6698f212b6f09a5c75b9ed2a3adc647cb78.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_08c55687edc01a387e6cf81056bb0ac3c5c0633c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_920a5c91934572dd7b22245931f500279e03e955.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,48 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/DevinStarks/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_866313213ecbe169a7d310327a1a235acdd37ef1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_2fb111855f98686f9e9274667a2bc574871faf18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_cc29e36c98f8009a745e0ac71886f5faa31587de.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3edcac42aa4908fec3b82ddbb48865683ff6f71e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_7b527feaf05bb30f1d8232d123bd85e9e5cbaa11.jar" />
+        sha1="f768861356f4cd8613da447181fd15c3f584f52d">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.4_d87b847ad5dbd420f1b766a52605ff7b1372b044.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,30 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_14f18da385ba2888b8608b7e91e950b87f606117.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_187a70fd0685ac18b62af4efbb386a47a59dcceb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_ad8f8a6a9bc19dda43cec9ab774eb8a5d1a2e5f7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,21 +93,102 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_6f465a29908c2dc89ae3bbade57090dbc4964424.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
         <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_6ccfc541b792596fd393dd1ea71a1d9208e6e3d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_9052ddff6e467e02a1349b5afdaf78a149ac014e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_08c55687edc01a387e6cf81056bb0ac3c5c0633c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_920a5c91934572dd7b22245931f500279e03e955.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_866313213ecbe169a7d310327a1a235acdd37ef1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_cc29e36c98f8009a745e0ac71886f5faa31587de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3edcac42aa4908fec3b82ddbb48865683ff6f71e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_7b527feaf05bb30f1d8232d123bd85e9e5cbaa11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_14f18da385ba2888b8608b7e91e950b87f606117.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ba95933bea48e75978e3fda1886b74c74cb6a7d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_6f465a29908c2dc89ae3bbade57090dbc4964424.jar" />
     </item>
 
 </items>
