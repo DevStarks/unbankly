@@ -1,13 +1,22 @@
 import React from 'react';
-// import TextInput from '../TextInput';
-import { Text } from 'react-native';
+import TextInput from '../../../../components/TextInput';
+import Button from '../../../../components/Button';
+import { Text, View } from 'react-native';
 // import { connect } from 'react-redux';
 // import { mapStateToProps } from './container.js';
 
 
 const Login = function () {
+  const onPress = () => {
+
+  };
+  
   return (
-    <Text>Hello World</Text>
+    <View>
+      <TextInput placeholder='email'/>
+      <TextInput placeholder='password'/>
+      <Button title='Submit' onPress={onPress}/>
+    </View>
   );
 };
 
