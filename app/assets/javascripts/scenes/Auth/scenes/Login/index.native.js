@@ -2,15 +2,14 @@ import React from 'react';
 import TextInput from '../../../../components/TextInput';
 import Button from '../../../../components/Button';
 import { Text, View } from 'react-native';
-// import { connect } from 'react-redux';
-// import { mapStateToProps } from './container.js';
+import connect from './container';
 
 
 const Login = function () {
   const onPress = () => {
-
+    
   };
-  
+
   return (
     <View>
       <TextInput placeholder='email'/>
@@ -20,5 +19,4 @@ const Login = function () {
   );
 };
 
-// export default connect(mapStateToProps)(Login);
-export default Login;
+export default connect(Login);

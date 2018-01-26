@@ -1,3 +1,3 @@
 export default {
-  authURL: 'localhost:3000'
+  baseURL: 'localhost:3000/'
 };
