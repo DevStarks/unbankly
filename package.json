@@ -2,6 +2,7 @@
   "name": "unbankly",
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
+    "babel-preset-stage-2": "^6.24.1",
     "react-test-renderer": "^16.2.0",
     "redux-devtools": "^3.4.1",
     "redux-devtools-extension": "^2.13.2"
@@ -18,7 +19,6 @@
     "postcss-scss": "^1.0.3",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-constant": "^2.0.1",
     "react-dom": "^16.2.0",
     "react-native": "^0.50.3",
     "react-native-oauth": "^2.2.0",
@@ -46,7 +46,6 @@
   "scripts": {
     "heroku-postbuild": "./node_modules/.bin/webpack --config webpack.prod.config.js",
     "dev": "./node_modules/.bin/webpack --watch",
-    "start-native": "react-native-scripts start",
     "emulate-android": "~/Library/Android/sdk/emulator/emulator @Pixel_API_27",
     "android": "react-native run-android",
     "ios": "react-native run-ios",

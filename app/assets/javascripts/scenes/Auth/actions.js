@@ -1,10 +1,16 @@
-import Constant from 'react-constant';
-import API from './api';
-const constants = Constant('Auth');
+import { LOGIN, SIGNUP } from './action-types.js';
+import * as API from './api';
 
 export const login = (email, password) => {
   return {
-    type: constants.LOGIN,
+    type: LOGIN,
     promise: API.login(email, password)
+  };
+};
+
+export const signup = (email, password) => {
+  return {
+    type: SIGNUP,
+    promise: API.signup(email, password)
   };
 };

@@ -21,12 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/classes.jar"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="f768861356f4cd8613da447181fd15c3f584f52d">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.4_d87b847ad5dbd420f1b766a52605ff7b1372b044.jar" />
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_2fb111855f98686f9e9274667a2bc574871faf18.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,12 +174,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.3/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ba95933bea48e75978e3fda1886b74c74cb6a7d7.jar" />
+        sha1="24303e5ddb2c1210dd7e8db9dbab018f50313e48">
+        <dex dex="/Users/DevinStarks/Desktop/development-apps/unbankly-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.3_ad8f8a6a9bc19dda43cec9ab774eb8a5d1a2e5f7.jar" />
     </item>
     <item
         is-multidex="false"

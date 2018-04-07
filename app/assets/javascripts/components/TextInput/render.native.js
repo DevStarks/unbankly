@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   StyleSheet,
   TextInput
@@ -10,8 +10,16 @@ const styles = StyleSheet.create({
   }
 });
 
-export default function (props) {
-  return (
-    <TextInput style={styles.input} {...props}/>
-  );
+class TextInputWrapper extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <TextInput style={styles.input} {...this.props}/>
+    );
+  }
 }
+
+export default TextInputWrapper;

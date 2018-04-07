@@ -1,9 +1,8 @@
 class User < ApplicationRecord
   include DeviseTokenAuth::Concerns::User
 
-  devise :database_authenticatable, :registerable, :omniauthable, :confirmable, :lockable, :timeoutable, :omniauthable,
+  devise :database_authenticatable, :registerable, :omniauthable, :lockable, :timeoutable,
          :recoverable, :rememberable, :trackable, :validatable, omniauth_providers: %i[facebook google_oauth2]
-
 
   has_many :loans_as_lender,
            foreign_key: :lender_id,
@@ -22,6 +21,8 @@ class User < ApplicationRecord
            source: :lender
 
   has_many :loan_requests
+
+  before_create :skip_confirmation!
 
   def self.from_omniauth(auth)
     # for use with omniauth hash

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		C08OLCqRTLajjYuCRE2lL8Qp0m4=
+		6yfMR09wWd3IxUdjAPvp1zkPjMs=
 		</data>
 		<key>Frameworks/DCTAuth.framework/DCTAuth</key>
 		<data>
-		pIZZK+cnE8+TKDFVYeCBXA0vjho=
+		m1d0L5IlPi/eT4JtxaZ0/v/WJFM=
 		</data>
 		<key>Frameworks/DCTAuth.framework/Info.plist</key>
 		<data>
@@ -215,7 +215,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c6B3Y6ngBFCvm5ifSQuQML/Baz4=
+		uXwB8bBuUFrrHP2K01287Api+zA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -227,7 +227,7 @@
 		</data>
 		<key>PlugIns/UnbanklyTests.xctest/UnbanklyTests</key>
 		<data>
-		+Qwmc1uS+bsdPwytWSvQi9PYjlM=
+		JXoO58idcej/CpPxmA+qkcEbGVU=
 		</data>
 		<key>PlugIns/UnbanklyTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -240,22 +240,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C08OLCqRTLajjYuCRE2lL8Qp0m4=
+			6yfMR09wWd3IxUdjAPvp1zkPjMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			cDoze65MyCaI1r+D7tVXc6PekQYYyTSaCyeyIczq9ts=
+			ZuKufT5wp0bUcSgcSvXXRQpjlNnckpXzeKhXq7YKNaA=
 			</data>
 		</dict>
 		<key>Frameworks/DCTAuth.framework/DCTAuth</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pIZZK+cnE8+TKDFVYeCBXA0vjho=
+			m1d0L5IlPi/eT4JtxaZ0/v/WJFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			feMsJjYnwalMi3v+Bamk1BX+a9UHthAYYUA9YI2/Hnc=
+			ZMWpdIzTznCJmK+6KotlVaf13sse3ZDBn8jdUHqCUCY=
 			</data>
 		</dict>
 		<key>Frameworks/DCTAuth.framework/Info.plist</key>
@@ -819,11 +819,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Qwmc1uS+bsdPwytWSvQi9PYjlM=
+			JXoO58idcej/CpPxmA+qkcEbGVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			dvItTcPECubyKWfs53zYr+tNH5fxWbt0VulTq0DcfHs=
+			EBsFVGNzW4Ut9YciqBQZpO8+O7WMmYrWpS1jpyVA0Tg=
 			</data>
 		</dict>
 		<key>PlugIns/UnbanklyTests.xctest/_CodeSignature/CodeResources</key>

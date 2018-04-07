@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-test_user = FactoryBot.create(:user, username: 'devstarks', email: 'devstarks@gmail.com', password: 'password')
-
-# create debtors
-3.times do
-  FactoryBot.create(:loan, borrower: FactoryBot.create(:user), lender: test_user)
-end
+# test_user = FactoryBot.create(:user, username: 'devstarks', email: 'devstarks@gmail.com', password: 'password')
+#
+# # create debtors
+# 3.times do
+#   FactoryBot.create(:loan, borrower: FactoryBot.create(:user), lender: test_user)
+# end

@@ -1,5 +1,6 @@
 import { browserHistory } from 'react-router';
 import { applyMiddleware, createStore } from 'redux';
+import { middleware as reduxPackMiddleware } from 'redux-pack';
 import { routerMiddleware as createRouterMiddleware } from 'react-router-redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
@@ -14,6 +15,6 @@ export default (initialState) => {
   return createStore(
     reducer,
     initialState,
-    composeWithDevTools(applyMiddleware(routerMiddleware, thunk, logger))
+    composeWithDevTools(applyMiddleware(reduxPackMiddleware, routerMiddleware, thunk))
   );
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Text } from 'react-native';
 import { Provider } from 'react-redux';
 import ReactDOM from 'react-dom';
 import configureStore from './config/configure-store';
